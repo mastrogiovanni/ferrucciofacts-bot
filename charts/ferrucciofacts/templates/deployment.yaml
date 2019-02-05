@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: {{ template "ferrucciofacts.name" . }}
-        image: mastrogiovanni/ferrucciofacts
+        image: mastrogiovanni/ferrucciofacts-bot
         imagePullPolicy: Always
         ports:
         - containerPort: 80

@@ -3,11 +3,11 @@ entries:
   ferrucciofacts:
   - apiVersion: v1
     appVersion: 0.0.1
-    created: 2019-02-05T21:49:13.985088458Z
+    created: 2019-02-05T21:56:30.866446871Z
     description: Simple Telegram Bot to produce Ferruccio facts
-    digest: 06feb75b39a72f845a4c4054e106065e428514a53bac8e3afe534253849ff179
+    digest: a08b8aa9ccfd6d2f3fd56db3259e709e30358da95978309cce8fd553b79a3669
     name: ferrucciofacts
     urls:
     - ferrucciofacts-0.0.1.tgz
     version: 0.0.1
-generated: 2019-02-05T21:49:13.984855104Z
+generated: 2019-02-05T21:56:30.866224031Z
