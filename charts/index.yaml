@@ -1,13 +1,13 @@
 apiVersion: v1
 entries:
-  math:
+  ferrucciofacts:
   - apiVersion: v1
     appVersion: 0.0.1
-    created: 2019-01-29T23:34:18.100589402+01:00
-    description: Simple Telegram Bot to practice in Math
-    digest: 379c464254fa6103f03e526208a5cb3abfcee89b96c929bfda2416297d3ab7bd
-    name: math
+    created: 2019-02-05T21:49:13.985088458Z
+    description: Simple Telegram Bot to produce Ferruccio facts
+    digest: 06feb75b39a72f845a4c4054e106065e428514a53bac8e3afe534253849ff179
+    name: ferrucciofacts
     urls:
-    - math-0.0.1.tgz
+    - ferrucciofacts-0.0.1.tgz
     version: 0.0.1
-generated: 2019-01-29T23:34:18.100368489+01:00
+generated: 2019-02-05T21:49:13.984855104Z
