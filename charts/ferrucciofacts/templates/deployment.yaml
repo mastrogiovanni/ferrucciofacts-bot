@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ template "ferrucciofacts.fullname" . }}
+  labels:
+    app: {{ template "ferrucciofacts.name" . }}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: {{ template "ferrucciofacts.name" . }}
+  template:
+    metadata:
+      labels:
+        app: {{ template "ferrucciofacts.name" . }}
+    spec:
+      containers:
+      - name: {{ template "ferrucciofacts.name" . }}
+        image: mastrogiovanni/ferrucciofacts
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
+        env:
+          - name: TELEGRAM_BOT_ID
+            valueFrom:
+              configMapKeyRef:
+                name: {{ template "ferrucciofacts.fullname" . }}
+                key: telegram_bot_id
