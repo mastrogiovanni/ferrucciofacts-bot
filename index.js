@@ -4,8 +4,7 @@ const proc = require('process')
 const Telegraf = require('telegraf');
 
 // Create new Bot using a token
-const bot = new Telegraf("714725843:AAEdPhNbJ4C5DQ9PHi27B72GmmgAwN22a0U");
-// const bot = new Telegraf(proc.env.TELEGRAM_BOT_ID);
+const bot = new Telegraf(proc.env.TELEGRAM_BOT_ID);
 
 function getRandomInt(min, max) {
     min = Math.ceil(min);
